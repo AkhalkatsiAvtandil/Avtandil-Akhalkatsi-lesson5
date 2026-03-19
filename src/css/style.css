@@ -1,4 +1,7 @@
 @import url("https://cdn.web-fonts.ge/fonts/alk-tommaso/css/alk-tommaso.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/arial-geo-bolditalic/css/arial-geo-bolditalic.min.css");
+/*font-family: "Arial GEO BoldItalic", sans-serif;*/
+
 @font-face {
     font-family: 'ALK Tommaso';
     src: url('../fonts/alk-tommaso-webfont.eot'); /* IE9 Compat Modes */
@@ -8,8 +11,7 @@
          url('../fonts/alk-tommaso-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/alk-tommaso-webfont.svg#alk_tommasoregular') format('svg'); /* Legacy iOS */
 }
-@import url("https://cdn.web-fonts.ge/fonts/arial-geo-bolditalic/css/arial-geo-bolditalic.min.css");
-/*font-family: "Arial GEO BoldItalic", sans-serif;*/
+
 @font-face {
     font-family: 'Arial GEO BoldItalic';
     src: url('../fonts/arial-geo-bolditalic-webfont.eot'); /* IE9 Compat Modes */
@@ -24,6 +26,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1920;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
 }
 
 
