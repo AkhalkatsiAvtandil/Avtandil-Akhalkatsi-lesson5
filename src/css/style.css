@@ -8,8 +8,19 @@
          url('../fonts/alk-tommaso-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/alk-tommaso-webfont.svg#alk_tommasoregular') format('svg'); /* Legacy iOS */
 }
+@import url("https://cdn.web-fonts.ge/fonts/arial-geo-bolditalic/css/arial-geo-bolditalic.min.css");
+/*font-family: "Arial GEO BoldItalic", sans-serif;*/
+@font-face {
+    font-family: 'Arial GEO BoldItalic';
+    src: url('../fonts/arial-geo-bolditalic-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/arial-geo-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/arial-geo-bolditalic-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/arial-geo-bolditalic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/arial-geo-bolditalic-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/arial-geo-bolditalic-webfont.svg#arial_geobolditalic') format('svg'); /* Legacy iOS */
+}
+*{	
 
-*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -17,3 +28,5 @@
 
 
 li a{font-family: "ALK Tommaso", sans-serif;}
+
+
