@@ -21,8 +21,8 @@
          url('../fonts/arial-geo-bolditalic-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/arial-geo-bolditalic-webfont.svg#arial_geobolditalic') format('svg'); /* Legacy iOS */
 }
-*{	
 
+*{	
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -31,15 +31,87 @@
 .container{
 	max-width: 1920;
 	width: 100%;
-	margin: 0 auto;
-	padding: 0;
+	margin: 0px auto;
+	padding: 200px ;
+
 }
 
+img{
+	max-width: 100%;
+}
 
-li a{font-family: "ALK Tommaso", sans-serif;}
+li a{
+	font-family: "ALK Tommaso", sans-serif;
+	vertical-align: middle;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	opacity: 1;
+	margin: ;
+}
 
 header{
 	background-color: #0020F4;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 388px;
+	opacity: 1;
+	display: inline-block;
 }
 
+ul{
+	list-style: none;
+	display: inline-block;
+}
+li{
+	display: inline-block;
+}
 
+nav{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'ALK Tommaso';
+}
+
+ul li button{
+	border-radius: 28px;
+	color: #171717;
+	background: #FFFFFF;
+
+}
+
+section button{
+	border-radius: 28px;
+	color: #FFFFFF;
+	background: #0A22F4;
+}
+
+p,a,button{ 
+	font-family: 'Arial GEO BoldItalic';
+}
+
+ul,ul li{
+	display: inline-block;
+	
+    
+}
+
+.logo{
+	vertical-align: middle;
+	width: 115px;
+	height: 65px;
+    margin-left: 240px;
+
+}
+
+p{
+	margin: 18px auto;
+}
