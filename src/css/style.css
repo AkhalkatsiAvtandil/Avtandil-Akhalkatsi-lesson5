@@ -29,11 +29,10 @@
 }
 
 .container{
-	max-width: 1920;
+	max-width: 1920px;
 	width: 100%;
 	margin: 0px auto;
-	padding: 200px ;
-
+	padding: 0px ;
 }
 
 img{
@@ -48,7 +47,7 @@ li a{
 	color: #FFFFFF;
 	text-transform: uppercase;
 	opacity: 1;
-	margin: ;
+	
 }
 
 header{
@@ -71,6 +70,7 @@ li{
 
 nav{
 	display: inline-block;
+	margin-left: 241px;
 }
 
 a{
@@ -92,24 +92,23 @@ section button{
 	border-radius: 28px;
 	color: #FFFFFF;
 	background: #0A22F4;
+	padding: 68px auto;
 }
 
 p,a,button{ 
 	font-family: 'Arial GEO BoldItalic';
+	color: #171717;
 }
 
 ul,ul li{
 	display: inline-block;
-	
-    
 }
 
 .logo{
 	vertical-align: middle;
 	width: 115px;
 	height: 65px;
-    margin-left: 240px;
-
+    margin-left: 240px
 }
 
 p{
